@@ -2,7 +2,7 @@ const express = require('express')
 // const bodyParser = require('body-parser')
 const app = express();
 // app.use(bodyParser.json());
-// it is used for calling also likke we do the get mapping and all
+// It is used for calling also like we do the get mapping and all
 
 // app.use() this is use for converting the string which is given by postman to json format
 app.use(express.json()); // Middleware to parse JSON body
